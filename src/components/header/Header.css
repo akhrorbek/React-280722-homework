@@ -1,0 +1,33 @@
+.logoLink {
+    text-decoration: none;
+}
+.siteNav__navList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-right: 85px;
+}
+
+.navList__item + .navList__item {
+    margin-left: 95px;
+}
+
+.item__itemLink {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.siteNav__button {
+    background-color: #008F76;
+    color: aliceblue;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    border: solid white 0.3px;
+}
+
+.siteNav__button:active {
+    color: red;
+}
